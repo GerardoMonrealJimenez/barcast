@@ -9,7 +9,9 @@ $( document ).ready(function() {
     $('.modal').modal();
     getAllTipoUsuario();
 });
-
+asd
+asdS
+asas
 function getAllTipoUsuario()
 {
   //$('#Ajax').show();
