@@ -43,7 +43,11 @@
 
 
       }
-
+      /**
+       * [getTipoUsuario description]
+       * @param  [int] $id [id del Usuario]
+       * @return [array]     [arreglo de usuarios]
+       */
       public static function getTipoUsuario($id)
       {
           Barcast::open();
