@@ -12,9 +12,10 @@
 
       }
 
-      /**
-       * Método que regresa todos los tipos de usuario, esten o no activos
-       */
+    /**
+     * [getAllTipoUsuario description]
+     * @return [type] [description]
+     */
       public static function getAllTipoUsuario()
       {
 
