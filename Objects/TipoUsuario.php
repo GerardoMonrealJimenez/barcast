@@ -43,6 +43,11 @@
       return $this->activo;
     }
 
+    public function getPermisos()
+    {
+      return $this->permisos;
+    }
+
     //setters
 
     public function setIdTipoUsuario($idTipoUsuario)

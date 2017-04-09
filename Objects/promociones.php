@@ -16,7 +16,7 @@
     //Que onda con el constructor
     function __construct()
     {
-      $this->permisos =  array();
+    
     }
 
 //Getters

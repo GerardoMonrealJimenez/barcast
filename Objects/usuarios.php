@@ -11,13 +11,12 @@
     // considerar cambiar nombre a pass
     private $contraseña;
     private $idTipoUsuario;
-    private $telefono;
     private $activo;
 
     //Que onda con el constructor
     function __construct()
     {
-      $this->permisos =  array();
+
     }
 
 //Getters
@@ -48,10 +47,6 @@
       return $this->idTipoUsuario;
     }
 
-    public function gettelefono()
-    {
-      return $this->telefono;
-    }
 
     public function getactivo()
     {
@@ -85,10 +80,6 @@
       $this->idTipoUsuario = $idTipoUsuario;
     }
 
-    public function settelefono($telefono)
-    {
-      $this->telefono = $telefono;
-    }
 
     public function setactivo($activo)
     {
