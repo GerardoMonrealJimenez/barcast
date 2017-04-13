@@ -12,9 +12,10 @@
 
       }
 
-      /**
-       * Método que regresa todos los tipos de usuario, esten o no activos
-       */
+    /**
+     * [getAllTipoUsuario description]
+     * @return [type] [description]
+     */
       public static function getAllTipoUsuario()
       {
 
@@ -43,7 +44,11 @@
 
 
       }
-
+      /**
+       * [getTipoUsuario description]
+       * @param  [int] $id [id del Usuario]
+       * @return [array]     [arreglo de usuarios]
+       */
       public static function getTipoUsuario($id)
       {
           Barcast::open();

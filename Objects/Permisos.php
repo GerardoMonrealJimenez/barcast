@@ -1,95 +1,87 @@
 <?php
+
   /**
    * Clase para definir la tabla permisos de la base de datos
    */
-  class Permisos
+  class permisos
   {
-
     private $idPermisos;
     private $descripcion;
-    private $fechaAlta;
-    private $fechaModificacion;
+    private $fecha_alta;
+    private $fecha_modificacion;
     private $activo;
     private $idTipoUsuario;
-    private $tipoUsuario;
 
+    //Que onda con el constructor
     function __construct()
     {
-
-    }
-    //Setters
-    public function setIdPermisos($idPermisos)
-    {
-      $this->idPermisos = $idPermisos;
+      
     }
 
-    public function setDescripcion($descripcion)
-    {
-      $this->descripcion = $descripcion;
-    }
+//Getters
 
-    public function setFechaAlta($fechaAlta)
-    {
-      $this->fechaAlta = $fechaAlta;
-    }
-
-    public function setFechaModificacion($fechaModificacion)
-    {
-      $this->fechaModificacion = $fechaModificacion;
-    }
-
-    public function setActivo($activo)
-    {
-      $this->activo = $activo;
-    }
-
-    public function setIdTipoUsuario($idTipoUsuario)
-    {
-      $this->idTipoUsuario = $idTipoUsuario;
-    }
-
-    public function setTipoUsuario($tipoUsuario)
-    {
-      $this->tipoUsuario = $tipoUsuario;
-    }
-
-    //Getters
-
-    public function getIdPermisos($idPermisos)
+    public function getidPermisos()
     {
       return $this->idPermisos;
     }
 
-    public function getDescripcion($descripcion)
+    public function getdescripcion()
     {
       return $this->descripcion;
     }
 
-    public function getFechaAlta($fechaAlta)
+    public function getfecha_alta()
     {
-      return $this->fechaAlta;
+      return $this->fecha_alta;
     }
 
-    public function getFechaModificacion($fechaModificacion)
+    public function getfecha_modificacion()
     {
-      return $this->fechaModificacion;
+      return $this->fecha_modificacion;
     }
 
-    public function getActivo($activo)
+    public function getactivo()
     {
       return $this->activo;
     }
 
-    public function getIdTipoUsuario($idTipoUsuario)
+    public function getidTipoUsuario()
     {
       return $this->idTipoUsuario;
     }
 
-    public function getTipoUsuario($tipoUsuario)
+    //setters
+
+    public function setidPermisos($idPermisos)
     {
-      return $this->tipoUsuario;
+      $this->idPermisos = $idPermisos;
+    }
+
+    public function setdescripcion($descripcion)
+    {
+      $this->descripcion = $descripcion;
+    }
+
+    public function setfecha_alta($fecha_alta)
+    {
+      $this->fecha_alta = $fecha_alta;
+    }
+
+    public function setfecha_modificacion($fecha_modificacion)
+    {
+      $this->fecha_modificacion = $fecha_modificacion;
+    }
+
+    public function setactivo($activo)
+    {
+      $this->activo = $activo;
+    }
+
+    public function setidTipoUsuario($idTipoUsuario)
+    {
+      $this->idTipoUsuario = $idTipoUsuario;
     }
 
   }
 
-?>
+ ?>

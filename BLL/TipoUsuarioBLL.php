@@ -70,6 +70,19 @@
       {
         TipoUsuarioDAL::activoTipoUsuario($id,$active);
       }
+
+      public static function getAllSelectItemsTipoUsuarios()
+      {
+        $select = '';
+        $tipoUsuarioArray = TipoUsuarioDAL::getAllTipoUsuario();
+        foreach ($tipoUsuarioArray as $item)
+        {
+            $select.='<option class="selTU" value="'.$item->getIdTipoUsuario().'">'.$item->getDescripcion().'</option>';
+        }
+
+        return $select;
+      }
+
     }
 
 ?>
